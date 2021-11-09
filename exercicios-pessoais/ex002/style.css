@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 61, 151);
+}
+hr {
+    color: rgb(13, 61, 151);
+}

@@ -1,0 +1,15 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: whitesmoke;
+}
+p {
+    color: gold;
+}
+a {
+    color: rgb(135, 24, 145);
+}

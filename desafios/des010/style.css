@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(114, 114, 114);
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(80, 161, 115);
+    color: white;
+    padding: 8px;
+}
+
+#titulo {
+    margin: 0px;
+    padding: 8px 0px 0px 0px;
+    text-align: center;
+    font: bold 2em Arial, helvetica, sans-serif;
+}
+
+#subtitulo {
+    text-align: center;
+    font: normal 1em Arial, helvetica, sans-serif;
+}
+
+.menu {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 8px 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    background-color: rgb(1, 82, 29);
+    padding: 8px;
+    border-radius: 3px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: 0px auto;
+    padding: 16px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > h1 {
+    font: normal 2em 'android', sans-serif;
+    color: rgb(80, 161, 115);
+    padding: 0px;
+    margin: 0px;
+}
+
+article > p {
+    text-indent: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    margin: 16px 0px;
+}
+
+h2.topico {
+    background-color: rgba(144, 238, 144, 0.562);
+    color: rgb(42, 83, 60);
+    font: normal 1.5em'android', sans-serif;
+}
+
+.forte {
+    color: rgb(42, 83, 60);
+}
+
+.links {
+    color: rgb(42, 83, 60);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.links::after {
+   content: ' ⛓'; 
+}
+
+#video {
+    background-color: rgb(10, 109, 43);
+    margin: 0px -16px 12px -16px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(80, 161, 115);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer > p {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(42, 83, 60);
+}
+
+strong {
+    color: white;
+}
+
+#box {
+    background-color: rgb(187, 255, 198);
+    padding: 0px 8px 8px 8px;
+    border-radius: 5px;
+}
+
+article > h3 {
+    background-color: rgb(80, 161, 115);
+    color: white;
+    margin: 0px -8px 8px -8px;
+    padding: 8px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+ul {
+    display: inline-block
+}
